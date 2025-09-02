@@ -42,7 +42,7 @@ function App() {
          <div className='p-2  text-white flex space-x-2'>{lists.length > 0 ? lists.map((item) => <div className='bg-blue-600 rounded-2xl px-1' key={item.id}>{item.firstName} {item.lastName}</div>) : <div>No users selected</div>}</div>
         
         <input
-          className='p-4 bg-blue-300 h-10 w-1/2'
+          className='p-4 bg-blue-300 h-10 w-1/2 rounded-2xl border-none outline-none'
           type="search"
           value={search}
           onChange={(event) => {setSearch(event.target.value)

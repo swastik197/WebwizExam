@@ -14,12 +14,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
- async function getprojectData() {
-    try {
-
-      const response = await axios.get(`http://localhost:5000/api/projectDetails/${slug}`)
-      setproject(response.data)
-    } catch (err) {
-      console.log('error occoured', err)
-    }
-  }
+                                                                                                                                         
